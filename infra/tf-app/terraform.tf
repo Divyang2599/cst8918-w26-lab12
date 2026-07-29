@@ -8,15 +8,15 @@ terraform {
       version = "~> 3.96.0"
     }
   }
-  # Remote backend: state lives in the storage account from Part A
   backend "azurerm" {
     storage_account_name = "lab12group4githubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
-    # use_oidc = true  <-- we add this in Phase 4
+    use_oidc             = true
   }
 }
 
 provider "azurerm" {
   features {}
+  use_oidc = true
 }

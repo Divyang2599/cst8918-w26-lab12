@@ -1,5 +1,4 @@
-# infra/tf-app/outputs.tf
-
 output "resource_group_name" {
-  value = azurerm_resource_group.app.name
+  description = "The name of the application resource group"
+  value       = azurerm_resource_group.app.name
 }
