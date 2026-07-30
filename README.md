@@ -43,6 +43,10 @@ Impact on OIDC Setup: Without these federated credential role assignments, GitHu
 1. CloudLabs IAM Permission Error.
 <img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/86d93577-70f6-4953-b6f5-29d5a3d462ae" />
 
+2. Pull Request Workflow Checks
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/e7185b05-46a4-4d51-88a1-20d842691834" />
+
+
 3. Terraform Plan Output
 
 <img width="1916" height="963" alt="image" src="https://github.com/user-attachments/assets/b2ebba49-2145-4f96-98fb-530dcb5e9b7d" />
