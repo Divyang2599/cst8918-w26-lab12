@@ -13,7 +13,7 @@
 
 This repository demonstrates an Infrastructure as Code (IaC) pipeline for automating Azure infrastructure deployment using **Terraform** and **GitHub Actions**. 
 
-The repository is structured to separate application representation (`app/`), infrastructure configurations (`infra/`), and automated workflow pipelines (`.github/workflows/`).
+The repository is structured to separate application representation (`app/`), infrastructure configurations (`infra/`), and automated workflow pipelines (`.github/workflows/`)
 
 ## Known Environment Issue & CloudLabs Limitations
 Due to restricted IAM administrative permissions in the CloudLabs / Azure Sandbox environment, the automated CI/CD deployment pipeline (terraform apply via GitHub Actions) could not be fully completed.
